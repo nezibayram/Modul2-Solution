@@ -7,14 +7,8 @@
 display: flex;
 flex-basis: 33.33%;
 }
-h1 {float: right;
-    position:top;
-    margin: 10px 10px 100px 10px; 
-       
-}
 
 }
-
 
 /*Tablet-View*/
 @media (min-width:768px) and (max-width: 991px) {
@@ -28,21 +22,17 @@ h1 {float: right;
     grid-column-start: 1;
     grid-column-end: 4;
 }
-h1 {text-align: center;
-    position:top;
-    margin: 10px 10px 100px 10px;   
-}  
+
 }
 
 /*Mobile-View*/
 @media (max-width:767px) {.container
     {float:left;}
-    h1 {text-align:center;
-        position:top;
-        margin: 10px 10px 100px 10px;           
-    } 
+    h1 {text-align:right; } 
 }
-
+h1 {text-align:center;
+    position:top;
+    margin: 10px 10px 100px 10px; } 
 
 .col-lg-1 {
     border: 1px solid black;
